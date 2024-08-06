@@ -25,12 +25,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gorievm/go-gori"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/hexutil"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/p2p"
+	"github.com/gorievm/go-gori/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements gori-specific functionality.

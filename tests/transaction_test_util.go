@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/hexutil"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/params"
+	"github.com/gorievm/go-gori/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core/rawdb"
 )
 
 func TestIteratorHold(t *testing.T) {

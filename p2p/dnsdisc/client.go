@@ -27,12 +27,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/gorievm/go-gori/common/lru"
+	"github.com/gorievm/go-gori/common/mclock"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/p2p/enode"
+	"github.com/gorievm/go-gori/p2p/enr"
 	"golang.org/x/sync/singleflight"
 	"golang.org/x/time/rate"
 )

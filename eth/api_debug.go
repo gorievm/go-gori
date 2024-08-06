@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/hexutil"
+	"github.com/gorievm/go-gori/core/rawdb"
+	"github.com/gorievm/go-gori/core/state"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/internal/ethapi"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/rlp"
+	"github.com/gorievm/go-gori/rpc"
+	"github.com/gorievm/go-gori/trie"
 )
 
 // DebugAPI is the collection of Ori full node APIs for debugging the

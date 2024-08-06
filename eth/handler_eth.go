@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/eth/protocols/eth"
+	"github.com/gorievm/go-gori/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

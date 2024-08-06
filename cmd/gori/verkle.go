@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gorievm/go-gori/cmd/utils"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core/rawdb"
+	"github.com/gorievm/go-gori/internal/flags"
+	"github.com/gorievm/go-gori/log"
 	"github.com/gballet/go-verkle"
 	cli "github.com/urfave/cli/v2"
 )

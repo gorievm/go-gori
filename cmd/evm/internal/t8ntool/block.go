@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/hexutil"
+	"github.com/gorievm/go-gori/common/math"
+	"github.com/gorievm/go-gori/consensus/clique"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/rlp"
 	"github.com/urfave/cli/v2"
 )
 

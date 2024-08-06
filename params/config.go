@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/gorievm/go-gori/common"
 )
 
 // Genesis hashes to enforce below configs on.

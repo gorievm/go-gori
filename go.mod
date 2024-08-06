@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/gorievm/go-gori
 
 go 1.19
 

@@ -19,8 +19,8 @@ package rawdb
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/common/math"
+	"github.com/gorievm/go-gori/rlp"
 	"github.com/golang/snappy"
 )
 

@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/state"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/core/vm"
+	"github.com/gorievm/go-gori/eth/tracers"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/trie"
 )
 
 // noopReleaser is returned in case there is no operation expected

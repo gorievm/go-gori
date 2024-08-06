@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/gorievm/go-gori/common"
 )
 
 var _ = (*headerMarshaling)(nil)

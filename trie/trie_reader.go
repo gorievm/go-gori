@@ -17,9 +17,9 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/log"
 )
 
 // Reader wraps the Node method of a backing trie store.

@@ -22,16 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/eth"
+	"github.com/gorievm/go-gori/eth/downloader"
+	"github.com/gorievm/go-gori/eth/ethconfig"
+	"github.com/gorievm/go-gori/node"
+	"github.com/gorievm/go-gori/p2p"
+	"github.com/gorievm/go-gori/params"
 )
 
 func startSimulatedBeaconEthService(t *testing.T, genesis *core.Genesis) (*node.Node, *eth.Ori, *SimulatedBeacon) {

@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/common/math"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/p2p/enode"
+	"github.com/gorievm/go-gori/p2p/enr"
+	"github.com/gorievm/go-gori/rlp"
 )
 
 // RPC packet types

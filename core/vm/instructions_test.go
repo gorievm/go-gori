@@ -25,13 +25,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/math"
+	"github.com/gorievm/go-gori/core/rawdb"
+	"github.com/gorievm/go-gori/core/state"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/params"
 	"github.com/holiman/uint256"
 )
 

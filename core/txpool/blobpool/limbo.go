@@ -19,11 +19,11 @@ package blobpool
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/crypto/kzg4844"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/rlp"
 	"github.com/holiman/billy"
 )
 

@@ -23,11 +23,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/mclock"
+	"github.com/gorievm/go-gori/core/txpool"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/eth/fetcher"
 )
 
 var (

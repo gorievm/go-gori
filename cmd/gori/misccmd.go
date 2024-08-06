@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gorievm/go-gori/internal/version"
+	"github.com/gorievm/go-gori/params"
 	"github.com/urfave/cli/v2"
 )
 

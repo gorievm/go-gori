@@ -24,9 +24,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/rlp"
 )
 
 // AdminAPI is the collection of Ori full node related APIs for node

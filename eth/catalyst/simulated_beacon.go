@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gorievm/go-gori/beacon/engine"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/eth"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/node"
+	"github.com/gorievm/go-gori/rpc"
 )
 
 // withdrawalQueue implements a FIFO queue which holds withdrawals that are

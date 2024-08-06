@@ -23,17 +23,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/hexutil"
+	"github.com/gorievm/go-gori/consensus"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/state"
+	"github.com/gorievm/go-gori/core/txpool"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/eth/downloader"
+	"github.com/gorievm/go-gori/event"
+	"github.com/gorievm/go-gori/log"
+	"github.com/gorievm/go-gori/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

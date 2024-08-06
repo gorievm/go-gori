@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gorievm/go-gori/accounts/abi"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/consensus/ethash"
+	"github.com/gorievm/go-gori/core"
+	"github.com/gorievm/go-gori/core/rawdb"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/core/vm"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/params"
+	"github.com/gorievm/go-gori/rpc"
+	"github.com/gorievm/go-gori/trie"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

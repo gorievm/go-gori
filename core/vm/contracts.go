@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gorievm/go-gori/common"
+	"github.com/gorievm/go-gori/common/math"
+	"github.com/gorievm/go-gori/crypto"
+	"github.com/gorievm/go-gori/crypto/blake2b"
+	"github.com/gorievm/go-gori/crypto/bls12381"
+	"github.com/gorievm/go-gori/crypto/bn256"
+	"github.com/gorievm/go-gori/crypto/kzg4844"
+	"github.com/gorievm/go-gori/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

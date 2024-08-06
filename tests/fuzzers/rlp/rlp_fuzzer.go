@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gorievm/go-gori/core/types"
+	"github.com/gorievm/go-gori/rlp"
 	"github.com/holiman/uint256"
 )
 
