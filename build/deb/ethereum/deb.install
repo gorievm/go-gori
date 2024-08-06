@@ -1,0 +1,5 @@
+build/bin/{{.BinaryName}} usr/bin
+{{- if eq .BinaryName "gori" }}
+build/deb/ethereum/completions/bash/gori etc/bash_completion.d
+build/deb/ethereum/completions/zsh/_gori usr/share/zsh/vendor-completions
+{{end -}}
